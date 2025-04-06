@@ -220,7 +220,61 @@
 			"flag": [],
 			"list": [
 				{
-					"name": "rlottie_1",
+					"name": "emoji",
+					"id": "zmhkv956",
+					"type": "img",
+					"left": 180,
+					"top": 100,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 120,
+					"height": 120,
+					"default_style": false,
+					"use_fs": false,
+					"fs_type": "flash",
+					"sd_path": "",
+					"img_path": "import/image/u1f60b.png",
+					"rotate": 0,
+					"x": 50,
+					"y": 50,
+					"color_format": "RGB565A8",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"image_recolor": "#ffffff",
+							"image_recolor_opa": 0,
+							"image_opa": 255
+						}
+					]
+				},
+				{
+					"name": "listening",
+					"id": "wxaqh5ii",
+					"type": "rlottie",
+					"left": 190,
+					"top": 110,
+					"visible": true,
+					"isLock": false,
+					"flag": [],
+					"width": 100,
+					"height": 100,
+					"json_path": "import/lottie/listening.json",
+					"default_style": false,
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#2195f6",
+							"bg_opa": 0
+						}
+					]
+				},
+				{
+					"name": "waiting",
 					"id": "fwwctf63",
 					"type": "rlottie",
 					"left": 190,
@@ -243,7 +297,7 @@
 					]
 				},
 				{
-					"name": "qrcode_2",
+					"name": "github",
 					"id": "c1qgzvje",
 					"type": "qrcode",
 					"left": 358,
@@ -252,12 +306,12 @@
 					"isLock": false,
 					"flag": [],
 					"width": 37,
-					"qr_data": "https://www.nxp.com/",
+					"qr_data": "https://github.com/fans963/AIDesktopPet",
 					"dark_color": "#2C3224",
 					"light_color": "#ffffff"
 				},
 				{
-					"name": "qrcode_1",
+					"name": "phone",
 					"id": "14wjkv1m",
 					"type": "qrcode",
 					"left": 415,
@@ -271,7 +325,7 @@
 					"light_color": "#ffffff"
 				},
 				{
-					"name": "label_1",
+					"name": "qrcodebackground",
 					"id": "5gx1afcz",
 					"type": "label",
 					"left": 338,
@@ -368,7 +422,7 @@
 					]
 				},
 				{
-					"name": "bar_1",
+					"name": "processbar",
 					"id": "1xppjue4",
 					"type": "bar",
 					"left": 50,
@@ -430,7 +484,7 @@
 					]
 				},
 				{
-					"name": "list_1",
+					"name": "wifi",
 					"id": "16n3z411",
 					"type": "list",
 					"left": 10,
@@ -661,7 +715,7 @@
 					]
 				},
 				{
-					"name": "label_2",
+					"name": "waitinglabel",
 					"id": "uwdt4eau",
 					"type": "label",
 					"left": 192,
@@ -758,7 +812,7 @@
 					]
 				},
 				{
-					"name": "label_3",
+					"name": "airesponse",
 					"id": "tz2qa575",
 					"type": "label",
 					"left": 10,
@@ -787,7 +841,7 @@
 							"radius": 8,
 							"text_color": "#000000",
 							"text_opa": 255,
-							"font": 16,
+							"font": 15,
 							"text_align": "LV_TEXT_ALIGN_LEFT",
 							"font_family": "montserratMedium",
 							"letter_space": 0,
@@ -935,7 +989,7 @@
 				],
 				"widgets": [
 					{
-						"name": "screen_label_3",
+						"name": "screen_airesponse",
 						"id": "tz2qa575",
 						"type": "label",
 						"visible": true,
@@ -967,7 +1021,7 @@
 								"radius": 8,
 								"text_color": "#000000",
 								"text_opa": 255,
-								"font": 16,
+								"font": 15,
 								"text_align": "LV_TEXT_ALIGN_LEFT",
 								"font_family": "montserratMedium",
 								"letter_space": 0,
@@ -1035,7 +1089,7 @@
 						]
 					},
 					{
-						"name": "screen_label_2",
+						"name": "screen_waitinglabel",
 						"id": "uwdt4eau",
 						"type": "label",
 						"visible": true,
@@ -1135,7 +1189,7 @@
 						]
 					},
 					{
-						"name": "screen_list_1",
+						"name": "screen_wifi",
 						"id": "16n3z411",
 						"type": "list",
 						"visible": true,
@@ -1375,7 +1429,7 @@
 						]
 					},
 					{
-						"name": "screen_bar_1",
+						"name": "screen_processbar",
 						"id": "1xppjue4",
 						"type": "bar",
 						"visible": true,
@@ -1446,7 +1500,7 @@
 						]
 					},
 					{
-						"name": "screen_label_1",
+						"name": "screen_qrcodebackground",
 						"id": "5gx1afcz",
 						"type": "label",
 						"visible": true,
@@ -1546,7 +1600,7 @@
 						]
 					},
 					{
-						"name": "screen_qrcode_1",
+						"name": "screen_phone",
 						"id": "14wjkv1m",
 						"type": "qrcode",
 						"visible": true,
@@ -1564,7 +1618,7 @@
 						"light_color": "#ffffff"
 					},
 					{
-						"name": "screen_qrcode_2",
+						"name": "screen_github",
 						"id": "c1qgzvje",
 						"type": "qrcode",
 						"visible": true,
@@ -1577,12 +1631,12 @@
 							37,
 							37
 						],
-						"qr_data": "https://www.nxp.com/",
+						"qr_data": "https://github.com/fans963/AIDesktopPet",
 						"dark_color": "#2C3224",
 						"light_color": "#ffffff"
 					},
 					{
-						"name": "screen_rlottie_1",
+						"name": "screen_waiting",
 						"id": "fwwctf63",
 						"type": "rlottie",
 						"visible": true,
@@ -1604,6 +1658,66 @@
 								"disable": false,
 								"bg_color": "#e1e3e4",
 								"bg_opa": 0
+							}
+						]
+					},
+					{
+						"name": "screen_listening",
+						"id": "wxaqh5ii",
+						"type": "rlottie",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							190,
+							110
+						],
+						"size": [
+							100,
+							100
+						],
+						"default_style": false,
+						"json_path": "import/lottie/listening.json",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#2195f6",
+								"bg_opa": 0
+							}
+						]
+					},
+					{
+						"name": "screen_emoji",
+						"id": "zmhkv956",
+						"type": "img",
+						"visible": true,
+						"flag": [],
+						"pos": [
+							180,
+							100
+						],
+						"size": [
+							120,
+							120
+						],
+						"default_style": false,
+						"img_path": "import/image/u1f60b.png",
+						"color_format": "RGB565A8",
+						"rotate": 0,
+						"pivot": "50,50",
+						"use_fs": false,
+						"fs_type": "flash",
+						"img_flash_path": "F:/u1f60b.png",
+						"img_sd_path": "S:/u1f60b.png",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"image_recolor": "#ffffff",
+								"image_recolor_opa": 0,
+								"image_opa": 255
 							}
 						]
 					}

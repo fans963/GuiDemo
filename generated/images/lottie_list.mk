@@ -1,1 +1,1 @@
-GEN_CSRCS += lottie_waiting.c
+GEN_CSRCS += lottie_waiting.c lottie_listening.c

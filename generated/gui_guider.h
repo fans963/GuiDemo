@@ -21,15 +21,17 @@ typedef struct
   
 	lv_obj_t *screen;
 	bool screen_del;
-	lv_obj_t *screen_label_3;
-	lv_obj_t *screen_label_2;
-	lv_obj_t *screen_list_1;
-	lv_obj_t *screen_list_1_item0;
-	lv_obj_t *screen_bar_1;
-	lv_obj_t *screen_label_1;
-	lv_obj_t *screen_qrcode_1;
-	lv_obj_t *screen_qrcode_2;
-	lv_obj_t *screen_rlottie_1;
+	lv_obj_t *screen_airesponse;
+	lv_obj_t *screen_waitinglabel;
+	lv_obj_t *screen_wifi;
+	lv_obj_t *screen_wifi_item0;
+	lv_obj_t *screen_processbar;
+	lv_obj_t *screen_qrcodebackground;
+	lv_obj_t *screen_phone;
+	lv_obj_t *screen_github;
+	lv_obj_t *screen_waiting;
+	lv_obj_t *screen_listening;
+	lv_obj_t *screen_emoji;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -60,7 +62,11 @@ extern lv_ui guider_ui;
 void setup_scr_screen(lv_ui *ui);
 #define LV_LOT_DECLARE(array_name) extern const uint8_t array_name[];
 LV_LOT_DECLARE(lottie_waiting);
+#define LV_LOT_DECLARE(array_name) extern const uint8_t array_name[];
+LV_LOT_DECLARE(lottie_listening);
+LV_IMAGE_DECLARE(_u1f60b_RGB565A8_120x120);
 
+LV_FONT_DECLARE(lv_font_montserratMedium_15)
 LV_FONT_DECLARE(lv_font_montserratMedium_16)
 LV_FONT_DECLARE(lv_font_MiSansBold_20)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
